@@ -12,8 +12,10 @@ public class Coxinhas{
     }
     
     
-    public void adicionar(){
-        coxinhas++;
+    public void abastecer(int quantidade) {
+        if (quantidade > 0) {
+            coxinhas += quantidade;
+        }
     }
     
     
